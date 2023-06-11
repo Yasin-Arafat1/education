@@ -1,0 +1,110 @@
+.top-banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 5px 40px;
+    width: 1050px;
+}
+.first-banner h1{
+    margin-bottom: 0;
+}
+.first-banner h3{
+    margin-top: 0;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 12px;
+}
+.second-banner h3{
+    margin-top: 0;
+}
+.second-banner{
+    margin-right: 70px;
+}
+.anchor{
+    text-decoration: none;
+    background-color: orangered;
+    color: white;
+    padding: 8px 15px;
+    font-size: 18px;
+}
+
+.all-item{
+    background: rgb(20, 19, 19);
+    padding: 8px;
+    width: 1050px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.item{
+    display: flex;
+    list-style: none;
+    padding: 3px 8px;
+}
+.all-item li a{
+    margin: 10px;
+    transition: 1s;
+    padding: 3px 8px;
+    color: white;
+    text-decoration: none;
+}
+.active, .item li a:hover{
+    color: orangered;
+}
+
+.blank{
+    color: white;
+    padding: 2px 10px;
+    margin: 15px;
+    width: 200px;
+    margin-left: 300px;
+    border-radius: 10px;
+    background-color: rgb(53, 47, 47);
+    border-style: none;
+}
+.banner{
+    background-image: url(./images/thought-catalog-505eectW54k-unsplash.jpg);
+    background-size: cover;
+    height: 500px;
+    align-items: center;
+    display: flex;
+    padding-left: 130px;
+    background-position: fixed;
+}
+.Education{
+    width: 400px;
+    color: white;
+    margin: 0;
+
+}
+.Education h1{
+    font-size: 40px;
+}
+.banner a{
+    text-decoration: none;
+    background-color: orangered;
+    color: white;
+    padding: 8px 15px;
+    font-size: 18px;
+    border-radius: 5rem;
+}
+.abilities{
+    width: 1330px;
+    display: inline-flex;
+}
+.section1{
+    background-color: rgb(20, 16, 16);
+    padding: 40px 30px;
+    color: white;
+}
+.section2{
+    background-color: orangered;
+    padding: 40px 30px;
+    color: white;
+
+}
